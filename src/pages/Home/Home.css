@@ -1,0 +1,41 @@
+
+.HomePage{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url('../../assets/images/home-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    height: 24.16875rem;
+}
+
+.info{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 1em;
+}
+
+.info h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.info p{
+    font-size: 1.1rem;
+
+}
+
+.info a{
+    background-color: red;
+    align-self: center;
+    padding: .8em 6rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    border-radius: .5em;
+}
